@@ -1,0 +1,251 @@
+/*-----------------------default setup---------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url("./Images/background12.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*----------------------------common classes-------*/
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around
+{
+    justify-content: space-around;
+}
+.br
+{ 
+    border: 1px solid red;
+}
+.cbr
+{ 
+    border: 1px solid yellow;
+}
+.cdr
+{
+    border: 1px solid yellowgreen;
+}
+
+/*------------------------navbar----------------------*/
+.navbar
+{
+    padding: 0px 150px;
+}
+.logo
+{
+    padding: 5px 0px;
+}
+.account
+{
+    padding: 25px 0px;
+}
+.list-items
+{
+    display: flex;
+}
+.list-items li{
+     padding-right: 8px; 
+}
+.list-items li::before
+{
+    content: "| ";
+    padding-right: 9px;
+}
+.list-items li:first-child::before { content: ''; }
+
+/*------------------------navbar----------------------*/
+.top-bottomBorder
+{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 3px 0px;
+}
+.links-bar
+{
+    background-color:rgb(216,214,215);
+    padding: 0px 150px;
+}
+.links
+{
+    background-color: white;
+}
+.links a{
+    padding: 10px 32px;
+    background-color:rgb(216,214,215);
+    color: black;
+    display: inline-block;
+}
+
+.links li a:hover
+{
+    background-color: white;
+}
+/*------------------------navbar----------------------*/
+.special-offers
+{
+    padding: 0px 150px;
+    border-bottom: 1px solid grey;
+}
+.special-links
+{
+    margin: 15px 0px;
+}
+.special-links li::before
+{
+    content: "o ";
+    padding-right: 3px;
+    color:rgb(216,214,215);
+}
+.special-links li:first-child::before { content: ''; }
+.special-links a
+{
+    color:rgb(216,214,215);
+    padding: 5px 32px;
+    display: inline-block;
+}
+.img
+{
+    margin: 4px 0px;
+}
+.tag
+{
+    margin: 15px 0px;
+}
+.tag-line
+{
+    color:rgb(216,214,215);
+    padding: 5px 32px;
+    display: inline-block;
+}
+/*------------------------navbar----------------------*/
+.main-frame
+{
+    margin: 0px 150px;
+}
+.catlogue
+{
+    background-color:white;
+    padding: 10px 10px;
+    /* height: max-content; */
+}
+.sample-pattern
+{
+    /* height: inherit; */
+    /* margin:0 auto; */
+}
+.sample-pattern img{
+    
+    height: 100%;
+    width: fit-content;
+}
+.DressTable-Ideas
+{
+    /* width: 30%; */
+    background-color: black;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    color: white;
+}
+.dress-container
+{
+    border: 1px solid white;
+    padding: 25px 25px;
+}
+.title-tag
+{
+    padding-left: 50px; 
+
+}
+.para
+{
+    margin: 20px 0px;
+    line-height: 20px;
+}
+.dress-links
+{
+    margin: 20px 0px;
+}
+.dress-links li{
+    margin:10px 0px;
+}
+.dress-links a
+{
+    color: white;
+}
+.bott-border
+{
+    border-bottom: 1px solid white;
+}
+.more-info a
+{
+    color: white;
+    text-decoration: underline;
+}
+.collections
+{
+    background-color: white;
+}
+
+.bord-container
+{
+    border: 10px solid black;
+    padding: 10px 10px;
+}
+.rit-border
+{
+    border-right: 3px solid grey;
+    padding: 10px 10px;
+}
+.padd
+{
+    margin: 10px 10px;
+}
+.footer
+{
+    padding: 10px 10px 40px 10px;
+    color: white;
+}
+.footer a
+{
+    color: white;
+}
+.foot-links
+{
+    padding: 7px 10px;
+}
+.foot-links a{
+    padding-right: 15px;
+    text-decoration: underline;
+}
+.foot-links li::before
+{
+    content: "| ";
+    padding-right: 5px;
+    color:rgb(216,214,215);
+}
+.foot-links li:first-child::before { content: ''; }
+.call-at
+{
+    padding: 7px 10px;
+}
+.copy-right
+{
+    padding: 7px 10px;
+}

@@ -1,4 +1,5 @@
 /*-----------------------default setup---------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 *
 {
     margin: 0;
@@ -10,6 +11,8 @@ body
     background-image:url("./Images/background12.png");
     background-repeat: no-repeat; 
     background-size: cover;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
 }
 li{
     list-style: none;
@@ -50,7 +53,7 @@ a{
 }
 .logo
 {
-    padding: 5px 0px;
+    padding: 5px 9px;
 }
 .account
 {
@@ -71,67 +74,105 @@ a{
 .list-items li:first-child::before { content: ''; }
 
 /*------------------------navbar----------------------*/
+.quick-links
+{
+     height: 34px; 
+    
+}
 .top-bottomBorder
 {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    padding: 3px 0px;
+    padding: 1px 0px;
+   
 }
 .links-bar
 {
     background-color:rgb(216,214,215);
     padding: 0px 150px;
+    height: 30px;
 }
 .links
 {
     background-color: white;
+    height: 30px;
 }
 .links a{
-    padding: 10px 32px;
+    height: 30px;
+    padding: 4px 19.8px;
     background-color:rgb(216,214,215);
     color: black;
     display: inline-block;
 }
-
+.back-color
+{
+    margin-left: 0.5px;
+    padding-top: 10px;
+    background-color:rgb(216,214,215);   
+}
+.back-color:hover
+{
+    background-color: white;
+}
 .links li a:hover
 {
     background-color: white;
 }
+.nav-searchbar{
+    height: 13px;
+    margin-left: 33px;
+    margin-right: 2px;
+    font-size: 10px;
+    width: 160px;
+    border: none;
+    box-shadow: inset 1px 1px 1px #6d6d6d ;
+  }
+  .btn-search{
+    border: solid 1px #b1b1b1;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #4a4a4a;
+    height: 13px;
+    padding: 1px 5px;
+  }
 /*------------------------navbar----------------------*/
 .special-offers
 {
-    padding: 0px 150px;
+    height: 44px;
+    padding: 0px 140px;
     border-bottom: 1px solid grey;
 }
 .special-links
 {
-    margin: 15px 0px;
+    margin: 5px 0px;
+    
 }
 .special-links li::before
 {
-    content: "o ";
-    padding-right: 3px;
+    content: " o";
+    padding: 0px 15px;
     color:rgb(216,214,215);
 }
 .special-links li:first-child::before { content: ''; }
 .special-links a
 {
     color:rgb(216,214,215);
-    padding: 5px 32px;
+    padding: 5px 0px;
     display: inline-block;
 }
 .img
 {
-    margin: 4px 0px;
+    margin: 0.5px 0px;
 }
 .tag
 {
-    margin: 15px 0px;
+    margin: 5px 0px;
+   
 }
 .tag-line
 {
     color:rgb(216,214,215);
-    padding: 5px 32px;
+    padding: 5px 38px;
     display: inline-block;
 }
 /*------------------------navbar----------------------*/
@@ -206,16 +247,35 @@ a{
 .bord-container
 {
     border: 10px solid black;
-    padding: 10px 10px;
+    padding-top: 3px;
 }
 .rit-border
 {
     border-right: 3px solid grey;
-    padding: 10px 10px;
+    padding: 0px 0px;
 }
 .padd
 {
-    margin: 10px 10px;
+    margin: 0px 0px;
+    height: 150px;
+}
+.glass
+{
+    background-image: url("./Images/promo_glass.png");
+    background-repeat: no-repeat;
+    
+}
+.plates
+{
+    background-image: url("./Images/promo_plates.png");
+    background-repeat: no-repeat;
+    
+}
+.album
+{
+    background-image: url("./Images/promo_album.png");
+    background-repeat: no-repeat;
+    
 }
 .footer
 {

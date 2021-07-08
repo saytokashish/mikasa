@@ -292,6 +292,7 @@ a{
 .wid
 {
     width: 50%;
+    padding-left: 5px;
 }
 .wid p{
     line-height: 20px;

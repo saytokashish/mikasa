@@ -66,8 +66,9 @@ a{
     
 }
 .list-items li{
-     padding-right: 8px; 
+     padding-right: 13px; 
      font-weight: 400;
+     font-size: 11px;
      color: rgb(115,114,114);
 }
 .list-items li::before
@@ -104,10 +105,11 @@ a{
 }
 .links li{
     font-weight: 400;
+    font-size: 11px;
 }
 .links a{
     height: 30px;
-    padding: 4px 17px;
+    padding: 8px 23px;
     background-color:rgb(216,214,215);
     color: rgb(70,68,69);
     

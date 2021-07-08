@@ -13,6 +13,7 @@ body
     background-size: cover;
     font-family: "Noto Sans", sans-serif;
     font-size: 13px;
+    font-weight: 400;
 }
 li{
     list-style: none;
@@ -62,9 +63,11 @@ a{
 .list-items
 {
     display: flex;
+    
 }
 .list-items li{
      padding-right: 8px; 
+     font-weight: 400;
 }
 .list-items li::before
 {
@@ -96,6 +99,10 @@ a{
 {
     background-color: white;
     height: 30px;
+    
+}
+.links li{
+    font-weight: 400;
 }
 .links a{
     height: 30px;
@@ -103,6 +110,7 @@ a{
     background-color:rgb(216,214,215);
     color: black;
     display: inline-block;
+    
 }
 .back-color
 {
@@ -199,7 +207,7 @@ a{
 .DressTable-Ideas
 {
     /* width: 30%; */
-    background-color: black;
+    background-color: rgb(47,46,44);
     margin: 0px 5px;
     padding: 10px 10px;
     color: white;
@@ -208,16 +216,18 @@ a{
 {
     border: 1px solid white;
     padding: 25px 25px;
+    
 }
 .title-tag
 {
-    
+    font-weight: 400;
 
 }
 .para
 {
     margin: 20px 0px;
     line-height: 20px;
+    font-weight: 400;
 }
 .dress-links
 {
@@ -267,6 +277,10 @@ a{
 {
     width: 50%;
 }
+.wid p{
+    line-height: 20px;
+    /* font-size: 11px; */
+}
 .glass
 {
     background-image: url("./Images/promo_glass.png");
@@ -291,7 +305,7 @@ a{
 
 .footer
 {
-    padding: 10px 10px 40px 10px;
+    padding: 10px 0px 40px 0px;
     color: white;
 }
 .footer a
@@ -300,10 +314,10 @@ a{
 }
 .foot-links
 {
-    padding: 7px 10px;
+    padding: 7px 0px;
 }
 .foot-links a{
-    padding-right: 15px;
+    padding-right: 10px;
     text-decoration: underline;
 }
 .foot-links li::before
@@ -320,4 +334,33 @@ a{
 .copy-right
 {
     padding: 7px 10px;
+}
+.sign-up
+{
+    margin-bottom: 10px;
+}
+.mail-sign-up
+{
+    width: 73%;
+    
+}
+.enter-mail
+{
+    height: 13px;
+    padding: 8px 15px;
+    
+    font-size: 10px;
+    width: 200px;
+    border: none;
+    box-shadow: inset 1px 1px 1px #6d6d6d ;
+}
+.btn-sign-up
+{
+    border: solid 1px #b1b1b1;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #4a4a4a;
+    height: 13px;
+    padding: 0px 5px;
+    margin-top: 2px;
 }

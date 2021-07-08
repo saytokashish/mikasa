@@ -58,7 +58,7 @@ a{
 }
 .account
 {
-    padding: 25px 0px;
+    padding: 25px 20px;
 }
 .list-items
 {
@@ -68,6 +68,7 @@ a{
 .list-items li{
      padding-right: 8px; 
      font-weight: 400;
+     color: rgb(115,114,114);
 }
 .list-items li::before
 {
@@ -99,16 +100,17 @@ a{
 {
     background-color: white;
     height: 30px;
-    
+    margin-right: 0px;
 }
 .links li{
     font-weight: 400;
 }
 .links a{
     height: 30px;
-    padding: 4px 20px;
+    padding: 4px 17px;
     background-color:rgb(216,214,215);
-    color: black;
+    color: rgb(70,68,69);
+    
     display: inline-block;
     
 }
@@ -116,6 +118,8 @@ a{
 {
     margin-left: 0.5px;
     padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 27px;
     background-color:rgb(216,214,215);   
 }
 .back-color:hover
@@ -128,7 +132,7 @@ a{
 }
 .nav-searchbar{
     height: 13px;
-    margin-left: 33px;
+    margin-left: 28px;
     margin-right: 2px;
     font-size: 10px;
     width: 160px;
@@ -164,7 +168,7 @@ a{
 .special-links li:first-child::before { content: ''; }
 .special-links a
 {
-    color:rgb(216,214,215);
+    color:rgb(178,184,198);
     padding: 5px 0px;
     display: inline-block;
 }
@@ -179,14 +183,14 @@ a{
 }
 .tag-line
 {
-    color:rgb(216,214,215);
+    color:rgb(178,184,198);
     padding: 5px 38px;
     display: inline-block;
 }
 /*------------------------navbar----------------------*/
 .main-frame
 {
-    margin: 0px 160px;
+    margin: 0px 170px;
 }
 .catlogue
 {
@@ -228,6 +232,7 @@ a{
     margin: 20px 0px;
     line-height: 20px;
     font-weight: 400;
+    color: rgb(163,162,162);
 }
 .dress-links
 {
@@ -238,27 +243,24 @@ a{
 }
 .dress-links a
 {
-    color: white;
+    color: rgb(217,219,219);
 }
 .bott-border
 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(163,162,162);
 }
 .more-info a
 {
-    color: white;
+    color:rgb(163,162,162);
     text-decoration: underline;
 }
 .collections
 {
     background-color: white;
+    border: 10px solid rgb(47,46,44);
 }
 
-.bord-container
-{
-    border: 10px solid black;
-    
-}
+
 .rit-border
 {
     border-right: 1px solid grey;
@@ -270,8 +272,13 @@ a{
     
     height: 150px;
 }
+.padd h3{
+    color: rgb(85,84,95);
+    font-weight: 400;
+}
 .padd p{
     font-size: 10px; 
+    color: rgb(163,162,162);
 }
 .album div {
    
@@ -309,15 +316,16 @@ a{
 .footer
 {
     padding: 10px 0px 40px 0px;
-    color: white;
+    color:rgb(152,150,151);
 }
 .footer a
 {
-    color: white;
+    color: rgb(152,150,151);
 }
 .foot-links
 {
     padding: 7px 0px;
+    
 }
 .foot-links a{
     padding-right: 10px;
@@ -333,25 +341,29 @@ a{
 .call-at
 {
     padding: 7px 10px;
+    font-size: 10px;
 }
 .copy-right
 {
     padding: 7px 10px;
+    font-size: 10px;
 }
 .sign-up
 {
     margin-bottom: 10px;
+    font-size: 10px;
+    padding-right: 10px;
 }
 .mail-sign-up
 {
-    width: 73%;
+    width: 75%;
     
 }
 .enter-mail
 {
     height: 13px;
     padding: 8px 15px;
-    
+    margin-right: 4px;
     font-size: 10px;
     width: 200px;
     border: none;

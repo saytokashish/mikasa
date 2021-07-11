@@ -15,6 +15,7 @@ body
     font-size: 13px;
     font-weight: 400;
 }
+/*----------------------------common classes-------*/
 li{
     list-style: none;
 }
@@ -22,8 +23,6 @@ li{
 a{
     text-decoration: none;
 }
-/*----------------------------common classes-------*/
-
 .d-flex{
     display: flex;
 }
@@ -81,7 +80,7 @@ a{
 }
 .list-items li:first-child::before { content: ''; }
 
-/*------------------------navbar----------------------*/
+/*------------------------quick-links----------------------*/
 .quick-links
 {
      height: 34px; 
@@ -152,7 +151,7 @@ a{
     height: 13px;
     padding: 1px 5px;
   }
-/*------------------------navbar----------------------*/
+/*------------------------special-offers----------------------*/
 .special-offers
 {
     height: 44px;
@@ -192,11 +191,12 @@ a{
     padding: 5px 38px;
     display: inline-block;
 }
-/*------------------------navbar----------------------*/
+/*------------------------main-frame----------------------*/
 .main-frame
 {
     margin: 0px 170px;
 }
+/*------------------------catlogue----------------------*/
 .catlogue
 {
     background-color:white;
@@ -259,22 +259,17 @@ a{
     color: rgb(217,219,219);
     
 }
-.bott-border
-{
-    border-bottom: 1px solid rgb(163,162,162);
-}
 .more-info 
 {
     color:rgb(163,162,162);
     text-decoration: underline;
 }
+/*------------------------collections----------------------*/
 .collections
 {
     background-color: white;
     border: 10px solid rgb(47,46,44);
 }
-
-
 .border-right
 {
     border-right: 1px solid grey;
@@ -284,22 +279,15 @@ a{
 }
 .container-height
 {
-    
-    
     height: 150px;
 }
 .container-height h3{
     color: rgb(85,84,95);
-    font-weight: 400;
-    
-   
+    font-weight: 400; 
 }
 .container-height p{
     font-size: 10px; 
     color: rgb(163,162,162);
-}
-.album div {
-   
 }
 .right-container
 {
@@ -308,12 +296,10 @@ a{
     height: 100%;
 }
 .right-container p{
-    line-height: 20px;
-    
+    line-height: 20px; 
 }
 .glass
 {
-    
     background-image: url("./Images/promo_glass.png");
     background-repeat: no-repeat;
     padding: 5px 20px;
@@ -331,7 +317,6 @@ a{
 }
 .plates
 {
-   
     background-image: url("./Images/promo_plates.png");
     background-repeat: no-repeat;
     padding: 5px 20px;
@@ -349,23 +334,20 @@ a{
 }
 .album
 {
-    
     padding: 5px 20px;
     background-image: url("./Images/promo_album.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.wid p{
-    margin-bottom: 10px;
-}
+
 .album-coll-link br
 {
     width: 40%;
-    
 }
 .album-coll-link a{
     color: rgb(68,85,114);
 }
+/* -----------------------footer----------------------------- */
 .footer
 {
     padding: 10px 0px 40px 0px;
@@ -432,3 +414,4 @@ a{
     padding: 0px 5px;
     margin-top: 2px;
 }
+/* -------------------------end-------------------------- */
